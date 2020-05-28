@@ -1,0 +1,115 @@
+{
+    "technical_languages" : [
+        {
+            "name": "Skill 1",
+            "description": ""
+        },
+        {
+            "name": "Skill 2",
+            "description": ""
+        },
+        {
+            "name": "Skill 3",
+            "description": ""
+        },
+        {
+            "name": "Skill 4",
+            "description": ""
+        },
+        {
+            "name": "Skill 5",
+            "description": ""
+        },
+        {
+            "name": "Skill 6",
+            "description": ""
+        },
+        {
+            "name": "Skill 7",
+            "description": ""
+        },
+        {
+            "name": "Skill 8",
+            "description": ""
+        },
+        {
+            "name": "Skill 9",
+            "description": ""
+        },
+        {
+            "name": "Skill 10",
+            "description": ""
+        },
+        {
+            "name": "Skill 11",
+            "description": ""
+        },
+        {
+            "name": "Skill 12",
+            "description": ""
+        },
+        {
+            "name": "Skill 13",
+            "description": ""
+        }
+    ],
+    "softwares" : [
+        {
+            "name": "Software 1"
+        },
+        {
+            "name": "Software 2"
+        },
+        {
+            "name": "Software 3"
+        },
+        {
+            "name": "Software 4"
+        },
+        {
+            "name": "Software 5"
+        }
+    ],
+    "languages":[
+        {
+            "name": "Language 1",
+            "description": "Level 1"
+        },
+        {
+            "name": "Language 2",
+            "description": "Level 2"
+        }
+    ],
+    "links":[
+        {
+            "type": "github",
+            "name": "Link github"
+        },
+        {
+            "type": "linkedin",
+            "name": "Link linkedin"
+        },
+        {
+            "type": "kaggle",
+            "name": "Link kaggle"
+        }
+    ],
+    "hobbies":[
+        {
+            "name": "Hobby 1",
+            "description": ""
+        },
+        {
+            "name": "Hobby 2",
+            "description": ""
+        },
+        {
+            "name": "Hobby 3",
+            "description": ""
+        },
+        {
+            "name": "Hobby 4",
+            "description": ""
+        }
+    ]
+}
