@@ -47,7 +47,7 @@ def add_information(pos, ax):
     info_dict = json.load(info_file)
     info_file.close()
     for info in info_dict:
-        plt.text(.74, pos, info_dict[info], fontsize=11, color='#ffffff')
+        plt.text(.74, pos, info_dict[info], fontsize=11)
         logo(pos, info, ax)
         pos -= 0.035
     return pos
@@ -59,9 +59,9 @@ def add_skill_multi(pos, skill_type):
     index = 0
     for skill in skills_dict[skill_type]:
         if index < ceil(len(skills_dict[skill_type])/2):
-            plt.text(.69, pos, skill["name"], fontsize=10, color='#ffffff')
+            plt.text(.69, pos, skill["name"], fontsize=10)
         else:
-            plt.text(.84, pos + 0.02*ceil(len(skills_dict[skill_type])/2), skill["name"], fontsize=10, color='#ffffff')
+            plt.text(.84, pos + 0.02*ceil(len(skills_dict[skill_type])/2), skill["name"], fontsize=10)
         pos -= 0.02
         index += 1
     pos += (index - 1) * 0.02 - 0.02*ceil(len(skills_dict[skill_type])/2)
@@ -72,7 +72,7 @@ def add_skill_single(pos, skill_type):
     skills_dict = json.load(skills_file)
     skills_file.close()
     for skill in skills_dict[skill_type]:
-        plt.text(.69, pos, skill["name"] + " " + skill["description"], fontsize=10, color='#ffffff')
+        plt.text(.69, pos, skill["name"] + " " + skill["description"], fontsize=10)
         pos -= 0.02
     return pos
 
@@ -81,7 +81,7 @@ def add_link(pos, skills_dict, ax):
     skills_dict = json.load(skills_file)
     skills_file.close()
     for skill in skills_dict['links']:
-        plt.text(.74, pos, skill["name"], fontsize=10, wrap=True, color='#ffffff')
+        plt.text(.74, pos, skill["name"], fontsize=10, wrap=True)
         logo(pos, skill["type"], ax)
         pos -= 0.035
     return pos

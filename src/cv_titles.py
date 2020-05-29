@@ -18,6 +18,6 @@ def title_left(pos, title_name):
     return pos
 
 def subtitle(pos, title_name):
-    plt.text(.69, pos, title_name, weight='bold', fontsize=12, color = '#ffffff')
+    plt.text(.69, pos, title_name, weight='bold', fontsize=12)
     pos -= 0.025
     return pos
